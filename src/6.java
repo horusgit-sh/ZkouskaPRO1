@@ -54,7 +54,7 @@ class Plavidlo extends DopravniProstredek {
 
 // Použití dědičnosti v praxi
 
- class SpusteniDopravy {
+class SpusteniDopravy {
     public static void main(String[] args) {
         DopravniProstredek auto = new OsobniAuto("Škoda Octavia");
         DopravniProstredek lod = new Plavidlo("Bohemia");

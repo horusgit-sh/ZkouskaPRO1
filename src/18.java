@@ -53,7 +53,7 @@ class FunkcionalniProgramovani {
         // Použití map pro změnu hodnot v seznamu
         List<Integer> zvysenaCisla = cisla.stream()
                 .map(x -> x * 2)  // Každé číslo v seznamu vynásobíme 2
-                .collect(Collectors.toList());
+                .toList();
         System.out.println("Zvýšená čísla: " + zvysenaCisla);  // Výstup: [2, 4, 6, 8, 10]
 
         // Použití reduce pro sečítání všech čísel v seznamu
